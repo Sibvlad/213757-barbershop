@@ -35,7 +35,7 @@
         </div>
       </div>
     </header>
-    <main class="container">
+    <main class="container clearfix">
         <h1>Средства для ухода</h1>
         <ul class="breadcrumbs">
           <li>
@@ -51,38 +51,59 @@
       <div class="choice-consumer">
         <form action="#" method="get">
           <h2>Производители</h2>
-          <input type="checkbox" name="baxter" id="baxter-field" checked>  
-          <label for="baxter-field">Baxter of california</label> 
-          <input type="checkbox" name="mr-natty" id="mr-natty-field">  
-          <label for="mr-natty-field">Mr Natty</label>
-          <input type="checkbox" name="suavecito" id="suavecito-field" checked> 
-          <label for="suavecito-field">Suavecito</label>
-          <input type="checkbox" name="malin" value="malin-field">
-          <label for="malin-field">Malin+Goets</label>
-          <input type="checkbox" name="murray" id="murray-field"> 
-          <label for="suavecito-field">Murray's</label>
-          <input type="checkbox" name="crew" id="crew-field" checked> 
-          <label for="crew-field">American Crew</label>
+          <div class="filter-row">
+            <input type="checkbox" name="baxter" id="baxter-field" checked>  
+            <label for="baxter-field">Baxter of california</label>
+          </div>
+          <div class="filter-row">
+            <input type="checkbox" name="mr-natty" id="mr-natty-field">  
+            <label for="mr-natty-field">Mr Natty</label>
+          </div>
+          <div class="filter-row">
+            <input type="checkbox" name="suavecito" id="suavecito-field" checked> 
+            <label for="suavecito-field">Suavecito</label>
+          </div>
+          <div class="filter-row">
+             <input type="checkbox" name="malin" value="malin-field">
+             <label for="malin-field">Malin+Goets</label>
+          </div>
+          <div class="filter-row">
+             <input type="checkbox" name="murray" id="murray-field"> 
+             <label for="suavecito-field">Murray's</label>
+          </div>
+          <div class="filter-row">
+             <input type="checkbox" name="crew" id="crew-field" checked> 
+             <label for="crew-field">American Crew</label>
+          </div>   
           <h2>Группы товаров</h2>
-          <input type="radio" name="goods-groupe" id="razor-field" value="razor">  
-          <label for="razor-field">Бритвенные принадлежности</label>                                                          
-          <input type="radio" name="goods-groupe" id="body-field" value="body" checked>  
-          <label for="body-field">Средства для ухода</label>
-          <input type="radio" name="goods-groupe" id="accessory-field" value="accessory"> 
-          <label for="accessory-field">Аксессуары</label>
-          <input type="submit" value="Показать">  
+          <div class="filter-row">
+            <input type="radio" name="goods-groupe" id="razor-field" value="razor">  
+            <label for="razor-field">Бритвенные принадлежности</label>
+          </div>
+          <div class="filter-row">
+            <input type="radio" name="goods-groupe" id="body-field" value="body" checked>  
+            <label for="body-field">Средства для ухода</label>
+          </div>
+          <div class="filter-row">
+            <input type="radio" name="goods-groupe" id="accessory-field" value="accessory"> 
+            <label for="accessory-field">Аксессуары</label>
+          </div>
+          <div class="show">
+            <input type="submit" value="Показать">
+          </div>      
         </form>
       </div>
       <div class="customer">
         <article class="catalog-item">
           <div class="catalog-image">
             <a href="#" alt="">
-              <img src="img/catalog1.jpg" width="120" height="80">
+              <img src="img/catalog1.jpg" width="220" height="165">
             </a>
           </div>
           <div class="catalog-description">
              <h3> 
-             <a href="#" alt="">Набор для путешествий "BAXTER OF CALIFORNIA"</a>
+             <a href="#" alt="">Набор для путешествий 
+             "BAXTER OF CALIFORNIA"</a>
              </h3>
              <p class="actions">
                <span class="price">2 900 рублей</span>
@@ -93,7 +114,7 @@
         <article class="catalog-item">
           <div class="catalog-image">
           <a href="#" alt="">
-            <img   src="img/catalog2.jpg" width="120" height="80">
+            <img   src="img/catalog2.jpg" width="220" height="165">
           </a>
          </div>
           <div class="catalog-description">
@@ -109,7 +130,7 @@
         <article class="catalog-item">
           <div class="catalog-image">
             <a href="#" alt="">
-              <img   src="img/catalog3.jpg" width="120" height="80">
+              <img   src="img/catalog3.jpg" width="220" height="165">
             </a>
           </div>
           <div class="catalog-description">
@@ -125,7 +146,7 @@
         <article class="catalog-item">
           <div class="catalog-image">
             <a href="#" alt="">
-              <img   src="img/catalog4.jpg" width="120" height="80">
+              <img   src="img/catalog4.jpg" width="220" height="165">
             </a>
           </div>
           <div class="catalog-description">
@@ -141,7 +162,7 @@
         <article class="catalog-item">        
           <div class="catalog-image">
             <a href="#" alt="">
-              <img   src="img/catalog5.jpg" width="120" height="80">
+              <img   src="img/catalog5.jpg" width="220" height="165">
             </a>
           </div>
           <div class="catalog-description">
@@ -157,7 +178,7 @@
         <article class="catalog-item">
         <div class="catalog-image">
           <a href="#" alt="">
-            <img   src="img/catalog6.jpg" width="120" height="80">
+            <img   src="img/catalog6.jpg" width="220" height="165">
           </a>
          </div>
          <div class="catalog-description">
@@ -179,7 +200,7 @@
     </div>
    </main>
    <footer class="main-footer">
-     <div class="container">
+     <div class="container clearfix">
        <div class="footer-contacts">
         Барбершоп «Бородинский»<br>
         Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
